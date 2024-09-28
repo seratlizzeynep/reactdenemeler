@@ -5,7 +5,7 @@ import './App.css'
 
 function App() {
   
-  let a = 15;
+
   const firstName = "Zeynep";
   let vize1 = 60;
   let vize2 = 50;
@@ -15,10 +15,9 @@ function App() {
  return (
     
       <div>
-       <p> musterinin adi : {firstName} </p>
-       <p> a degeri : {a} </p>
+       <p> Ogrencinin adi : {firstName} </p>
        <p>Ortalama: {( vize1 + vize2) / 2 }</p>
-       { sonuc ? <p> Dersi gectiniz </p> : <p> Kaldiniz</p>}
+       { sonuc ? <p> Zeynep dersi gectin </p> : <p> Kaldiniz</p>}
       </div>
       // suslu parantez icine yazian degiskeni atar .
       //eger "a degiskeninin degeri : a" seklinde yazsaydik string olarak alip a degiskeninin degeri : a ciktisi veriridi.
